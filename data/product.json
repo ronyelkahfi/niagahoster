@@ -1,0 +1,201 @@
+[
+  {
+    "name": "bayi",
+    "best_seller": false,
+    "real_price": 19900,
+    "discount_price": 14900,
+    "uom": "month",
+    "user_count": 938,
+    "feature": [
+      {
+        "feature_name": "RESOURCE POWER",
+        "value": 0.5
+      },
+      {
+        "feature_name": "Disk Space",
+        "value": "unlimited"
+      },
+      {
+        "feature_name": "Bandwith",
+        "value": "unlimited"
+      },
+      {
+        "feature_name": "Databases",
+        "value": "unlimited"
+      },
+      {
+        "feature_name": "Domain",
+        "value": 1
+      },
+      {
+        "feature_name": "Backup",
+        "value": "instant"
+      },
+      {
+        "feature_name": "Gratis Selamanya",
+        "value": "Unlimited SSL"
+      }
+    ]
+  },
+  {
+    "name": "pelajar",
+    "best_seller": false,
+    "real_price": 46900,
+    "discount_price": 23450,
+    "uom": "month",
+    "user_count": 4168,
+    "feature": [
+      {
+        "feature_name": "RESOURCE POWER",
+        "value": 1
+      },
+      {
+        "feature_name": "Disk Space",
+        "value": "unlimited"
+      },
+      {
+        "feature_name": "Bandwith",
+        "value": "unlimited"
+      },
+      {
+        "feature_name": "POP3 Email",
+        "value": "unlimited"
+      },
+      {
+        "feature_name": "Databases",
+        "value": "unlimited"
+      },
+      {
+        "feature_name": "Addon Domains",
+        "value": 10
+      },
+      {
+        "feature_name": "Backup",
+        "value": "instant"
+      },
+      {
+        "feature_name": "Selamanya",
+        "value": "domain gratis"
+      },
+      {
+        "feature_name": "Gratis Selamanya",
+        "value": "Unlimited SSL"
+      }
+    ]
+  },
+  {
+    "name": "personal",
+    "best_seller": true,
+    "real_price": 58900,
+    "discount_price": 38900,
+    "uom": "month",
+    "user_count": 10017,
+    "feature": [
+      {
+        "feature_name": "RESOURCE POWER",
+        "value": 2
+      },
+      {
+        "feature_name": "Disk Space",
+        "value": "unlimited"
+      },
+      {
+        "feature_name": "Bandwith",
+        "value": "unlimited"
+      },
+      {
+        "feature_name": "POP3 Email",
+        "value": "unlimited"
+      },
+      {
+        "feature_name": "Databases",
+        "value": "unlimited"
+      },
+      {
+        "feature_name": "Addon Domains",
+        "value": "unlimited"
+      },
+      {
+        "feature_name": "Backup",
+        "value": "instant"
+      },
+      {
+        "feature_name": "Selamanya",
+        "value": "domain gratis"
+      },
+      {
+        "feature_name": "Gratis Selamanya",
+        "value": "Unlimited SSL"
+      },
+      {
+        "feature_name": "Name Server",
+        "value": "private"
+      },
+      {
+        "feature_name": "Mail Protection",
+        "value": "SpamAssasin"
+      }
+    ]
+  },
+  {
+    "name": "bisnis",
+    "best_seller": true,
+    "real_price": 109900,
+    "discount_price": 65900,
+    "uom": "month",
+    "user_count": 3552,
+    "feature": [
+      {
+        "feature_name": "RESOURCE POWER",
+        "value": 2
+      },
+      {
+        "feature_name": "Disk Space",
+        "value": "unlimited"
+      },
+      {
+        "feature_name": "Bandwith",
+        "value": "unlimited"
+      },
+      {
+        "feature_name": "POP3 Email",
+        "value": "unlimited"
+      },
+      {
+        "feature_name": "Databases",
+        "value": "unlimited"
+      },
+      {
+        "feature_name": "Addon Domains",
+        "value": "unlimited"
+      },
+      {
+        "feature_name": "Backup & Restore",
+        "value": "magic auto"
+      },
+      {
+        "feature_name": "Selamanya",
+        "value": "domain gratis"
+      },
+      {
+        "feature_name": "Gratis Selamanya",
+        "value": "Unlimited SSL"
+      },
+      {
+        "feature_name": "Name Server",
+        "value": "private"
+      },
+      {
+        "feature_name": "Layanan Support",
+        "value": "prioritas"
+      },
+      {
+        "feature_name": "***********"
+      },
+      {
+        "feature_name": "Pro Mail Protection",
+        "value": "SpamExpert"
+      }
+    ]
+  }
+]
