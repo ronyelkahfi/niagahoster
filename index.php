@@ -13,6 +13,23 @@
     <title>Niagahoster</title>
   </head>
   <body>
+  <section class="header  border-bottom">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-md-6 header-text pt-3 pb-3 cursor-pointer">Gratis Ebook Sembilan Cara Cerdas Menggunakan Domain [x] </div>
+        <div class="col-md-4 text-end header-text pt-3 pb-3">
+          <div class="row">
+            <div class="col-md-4 text-end cursor-pointer"><i class="fa-solid fa-phone"></i> 0274-5305505</div>
+            <div class="col-md-4 text-end cursor-pointer"><i class="fa-solid fa-comments"></i> Live Chat </div>
+            <div class="col-md-4 text-end cursor-pointer"><i class="fa-solid fa-circle-user"></i> Member Area </div>
+          </div>
+         
+        
+        
+        </div>
+      </div>
+    </div>
+  </section>
   <nav class="navbar navbar-expand-lg navbar-light border-bottom navigation">
   <div class="container">
     <a class="navbar-brand" href="#">
@@ -124,29 +141,31 @@
         // print_r($arrDiscountPrice);
         $discountPrice = "Rp. <font class='first-price align-top'>".$firstDigit."</font>.<font class='align-top'>".$secondDigit."</font>";
       ?>
-      <div class="col-md-3 ps-0 pe-0">
+      <div class="col-md-3 ps-0 pb-3 mb-3  pe-0 box">
+      <?= ($product->best_seller==true) ? '<div class="ribbon ribbon-top-left"><span >best Seller</span></div>' : '' ?>
+      
         <ul class="list-group">
-          <li class="list-group-item text-center">
+          <li class="list-group-item text-center <?= ($product->best_seller==true)? 'bg-blue-light light-text' : '' ?>">
             <h3><?= Ucfirst($product->name) ?></h3>
           </li>
-          <li class="list-group-item text-center">
+          <li class="list-group-item text-center <?= ($product->best_seller==true)? 'bg-blue-light light-text' : '' ?>">
             <h6><del>Rp. <?= currency_id($product->real_price) ?></del></h6>
             <div class="align-top">
             <?= $discountPrice ?>
             </div>
           </li>
-          <li class="list-group-item text-center">
+          <li class="list-group-item text-center <?= ($product->best_seller==true)? 'bg-primary light-text' : '' ?>">
             <h6>
               <?= currency_id($product->user_count) ?> Pengguna Terdaftar
             </h6>
           </li>
-          <li class="list-group-item text-center">
+          <li class="list-group-item text-center pb-5">
             <?php
             foreach($product->feature as $feature){
               echo '<p>'.(!empty($feature->value)?Ucfirst($feature->value):'').' '.UCwords($feature->feature_name).'</p>';
             }
             ?>
-            <button type="button" class="btn btn-outline-dark">Pilih Sekarang</button>
+            <button type="button" class="btn <?= ($product->best_seller==true) ? 'btn-primary' : 'btn-outline-dark' ?> btn-rounded">Pilih Sekarang</button>
           </li>
 
         </ul>
@@ -355,7 +374,7 @@
     </div>
     <div class="row mt-5">
       <div class="col-md-12 text-center">
-      <button type="button" class="btn btn-outline-dark">Selengkapnya</button> 
+      <button type="button" class="btn btn-outline-dark btn-rounded">Selengkapnya</button> 
       </div>
     </div>
   </div>

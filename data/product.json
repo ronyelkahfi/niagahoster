@@ -139,7 +139,7 @@
   },
   {
     "name": "bisnis",
-    "best_seller": true,
+    "best_seller": false,
     "real_price": 109900,
     "discount_price": 65900,
     "uom": "month",

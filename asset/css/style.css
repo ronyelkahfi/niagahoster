@@ -51,3 +51,72 @@ h1 {
   color: rgb(243, 243, 243);
   font-size: 18pt;
 }
+.header-text {
+  font-size: 8pt;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.btn-rounded {
+  border-radius: 25px;
+}
+.bg-blue-light {
+  background-color: #039be5;
+}
+.light-text {
+  color: #fff;
+}
+.ribbon {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  position: absolute;
+}
+.ribbon::before,
+.ribbon::after {
+  position: absolute;
+  z-index: -1;
+  content: "";
+  display: block;
+  border: 5px solid #2980b9;
+}
+.ribbon span {
+  position: absolute;
+  display: block;
+  width: 280px;
+  padding: 10px 0;
+  background-color: #42ba96;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  font: 700 18px/1 "Lato", sans-serif;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+  text-align: center;
+  z-index: 9999;
+}
+.ribbon-top-left {
+  top: -10px;
+  left: -10px;
+}
+.ribbon-top-left::before,
+.ribbon-top-left::after {
+  border-top-color: transparent;
+  border-left-color: transparent;
+}
+.ribbon-top-left::before {
+  top: 0;
+  right: 0;
+}
+.ribbon-top-left::after {
+  bottom: 0;
+  left: 0;
+}
+.ribbon-top-left span {
+  font-size: 8pt;
+  right: -25px;
+  top: 25px;
+  transform: rotate(-45deg);
+}
+.box {
+  position: relative;
+}
