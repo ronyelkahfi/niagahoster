@@ -4,7 +4,7 @@
     "best_seller": false,
     "real_price": 19900,
     "discount_price": 14900,
-    "uom": "month",
+    "uom": "bln",
     "user_count": 938,
     "feature": [
       {
@@ -42,7 +42,7 @@
     "best_seller": false,
     "real_price": 46900,
     "discount_price": 23450,
-    "uom": "month",
+    "uom": "bln",
     "user_count": 4168,
     "feature": [
       {
@@ -88,7 +88,7 @@
     "best_seller": true,
     "real_price": 58900,
     "discount_price": 38900,
-    "uom": "month",
+    "uom": "bln",
     "user_count": 10017,
     "feature": [
       {
@@ -142,7 +142,7 @@
     "best_seller": false,
     "real_price": 109900,
     "discount_price": 65900,
-    "uom": "month",
+    "uom": "bln",
     "user_count": 3552,
     "feature": [
       {

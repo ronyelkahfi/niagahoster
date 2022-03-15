@@ -151,7 +151,7 @@
           <li class="list-group-item text-center <?= ($product->best_seller==true)? 'bg-blue-light light-text' : '' ?>">
             <h6><del>Rp. <?= currency_id($product->real_price) ?></del></h6>
             <div class="align-top">
-            <?= $discountPrice ?>
+            <?= $discountPrice."/".$product->uom ?>
             </div>
           </li>
           <li class="list-group-item text-center <?= ($product->best_seller==true)? 'bg-primary light-text' : '' ?>">
